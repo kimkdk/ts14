@@ -1,0 +1,17 @@
+Testsuite: cs.rsa.ts14.TestTimesag
+Tests run: 9, Failures: 1, Errors: 0, Time elapsed: 0.028 sec
+
+Testcase: shouldAccumulate8HoursInWeek2 took 0.004 sec
+Testcase: shouldClassifyIntoClasses took 0.002 sec
+Testcase: shouldAcceptAssignmentLine took 0.001 sec
+Testcase: shouldAcceptValidWeekline took 0 sec
+Testcase: shouldAcceptCommentLine took 0.001 sec
+Testcase: shouldGenerateReportForWeek2 took 0.005 sec
+	FAILED
+expected:<Week   2 :    8[,0 hours   (  5 Wdays of   8,0  d=-29,]4)> but was:<Week   2 :    8[.0 hours   (  5 Wdays of   8.0  d=-29.]4)>
+junit.framework.AssertionFailedError: expected:<Week   2 :    8[,0 hours   (  5 Wdays of   8,0  d=-29,]4)> but was:<Week   2 :    8[.0 hours   (  5 Wdays of   8.0  d=-29.]4)>
+	at cs.rsa.ts14.TestTimesag.shouldGenerateReportForWeek2(TestTimesag.java:130)
+
+Testcase: shouldAcceptValidWorkline took 0 sec
+Testcase: shouldAcceptEmptyLine took 0 sec
+Testcase: shouldAcceptValidWeekdayline took 0 sec
